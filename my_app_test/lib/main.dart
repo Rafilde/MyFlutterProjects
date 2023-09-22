@@ -32,8 +32,7 @@ class MyApp extends StatelessWidget {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80'),
+            image: AssetImage('assets/photo-1612404748636-568ca4155994.jpg'),
           ),
         ),
         floatingActionButton:
