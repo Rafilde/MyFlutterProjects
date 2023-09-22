@@ -31,14 +31,9 @@ class MyApp extends StatelessWidget {
           centerTitle: true,
         ),
         body: const Center(
-          child: Text(
-            "Hello ninjas",
-            style: TextStyle(
-                fontSize: 30,
-                fontWeight: FontWeight.bold,
-                letterSpacing: 2.0,
-                color: Colors.white,
-                fontFamily: 'Oswald'),
+          child: Image(
+            image: NetworkImage(
+                'https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D&w=1000&q=80'),
           ),
         ),
         floatingActionButton:
