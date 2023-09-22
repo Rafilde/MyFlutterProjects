@@ -32,7 +32,7 @@ class MyApp extends StatelessWidget {
         ),
         body: const Center(
           child: Image(
-            image: AssetImage('assets/photo-1612404748636-568ca4155994.jpg'),
+            image: AssetImage('assets/space_1.jpg'),
           ),
         ),
         floatingActionButton:
