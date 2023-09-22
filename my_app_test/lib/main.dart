@@ -30,10 +30,9 @@ class MyApp extends StatelessWidget {
           ),
           centerTitle: true,
         ),
-        body: const Center(
-          child: Image(
-            image: AssetImage('assets/space_1.jpg'),
-          ),
+        body: Container(
+          color: Colors.black,
+          child: Text("Oii", style: TextStyle(color: Colors.white, fontSize: 30, fontFamily: "Oswald"),),
         ),
         floatingActionButton:
             FloatingActionButton(onPressed: () {}, child: Text("Click")),
